@@ -1,13 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "net.itv.portals.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
-  ],
+  "mixins": [],
+  "client": ["ItvPortalsMixin"],
   "injectors": {
     "defaultRequire": 1
   }
